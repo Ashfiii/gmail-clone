@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Gmail</title>
+</head>
+
+<body>
+    <div class="container page1">
+        <div class="top-head">
+            <div class="col-w64 menu flex-cntr h-color" id="menu-open">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="col-w64 logo flex-cntr h-color margin-l">
+                Gmail
+            </div>
+            <div class="col-full-w256 search flex-cntr">
+                <div class="container pd">
+                    <div class="mid-head">
+                        <form class="form flex h-color">
+                            <div class="col-w64 flex-cntr icon-srch">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                            <input class="text" placeholder="Search Mail">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-w64 help flex-cntr h-color icon-sprt">
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+            </div>
+            <div class="col-w64 myaccount flex-cntr">
+                <div class="myaccount-logo flex-cntr">A</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-w64 add-mail flex-cntr">
+        <div class="addmail-logo flex-cntr" onclick="openModal()"><i class="fa fa-plus" aria-hidden="true"></i></div>
+    </div>
+
+    <div class="container pd-left">
+        <div class="row">
+            <div id="menu" class="touch-menu-la nav">
+                <ul class="list-style">
+                    <li class="items"><i class="fa fa-inbox" aria-hidden="true"></i>All inboxes</li>
+                    <li class="items"><i class="fa fa-inbox" aria-hidden="true"></i>Primary</li>
+                    <li class="items"><i class="fa fa-user-o" aria-hidden="true"></i>Social</li>
+                    <li class="items"><i class="fa fa-tag" aria-hidden="true"></i>Promotions</li>
+                    <li class="items-title">ALL LABELS</li>
+                    <li class="items"><i class="fa fa-star-o" aria-hidden="true"></i>Starred</li>
+                    <li class="items"><i class="fa fa-clock-o" aria-hidden="true"></i>Snoozed</li>
+                    <li class="items"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Important</li>
+                    <li class="items"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>Sent</li>
+                    <li class="items"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Scheduled</li>
+                    <li class="items"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Outbox</li>
+                    <li class="items"><i class="fa fa-file-o" aria-hidden="true"></i>Drafts</li>
+                    <li class="items"><i class="fa fa-envelope-o" aria-hidden="true"></i>All mail</li>
+                    <li class="items"><i class="fa fa-exclamation" aria-hidden="true"></i>Spam</li>
+                    <li class="items"><i class="fa fa-trash-o" aria-hidden="true"></i>Trash</li>
+                    <li class="items-title">GOOGLE APPS</li>
+                    <li class="items"><i class="fa fa-calendar-o" aria-hidden="true"></i>Calendar</li>
+                    <li class="items"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Contacts</li>
+                    <li class="items"><i class="fa fa-cog" aria-hidden="true"></i>Settings</li>
+                    <li class="items"><i class="fa fa-question-circle-o" aria-hidden="true"></i>Help & Feedback</li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="header-title">
+                    <div class="options">
+                        <span class="primary-icon items"><i class="fa fa-inbox" aria-hidden="true"></i></span>
+                        <span class="primary">PRIMARY</span>
+                    </div>
+                    <div class="options">
+                        <span class="social-icon items"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                        <span class="promotions">SOCIAL</span>
+                    </div>
+                    <div class="options">
+                        <span class="PROMOTIONS-icon items"><i class="fa fa-tag" aria-hidden="true"></i></span>
+                        <span class="promotions">PROMOTIONS</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="sender-name wh-64">
+                        <span class=" section-icon flex-cntr">S</span>
+                    </div>
+                    <div class="my-content">
+                        <div class="sender">
+                            <span>Sender</span>
+                            <span class="date">Nov 20</span>
+                        </div>
+                        <div class="subject">
+                            <span>Subject</span>
+                        </div>
+                        <div class="msg">
+                            <span>Content</span>
+                            <span class="star"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="sender-name wh-64">
+                        <span class=" section-icon flex-cntr">S</span>
+                    </div>
+                    <div class="my-content">
+                        <div class="sender">
+                            <span>Sender</span>
+                            <span class="date">Nov 20</span>
+                        </div>
+                        <div class="subject">
+                            <span>Subject</span>
+                        </div>
+                        <div class="msg">
+                            <span>Content</span>
+                            <span class="star"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="sender-name wh-64">
+                        <span class=" section-icon flex-cntr">S</span>
+                    </div>
+                    <div class="my-content">
+                        <div class="sender">
+                            <span>Sender</span>
+                            <span class="date">Nov 20</span>
+                        </div>
+                        <div class="subject">
+                            <span>Subject</span>
+                        </div>
+                        <div class="msg">
+                            <span>Content</span>
+                            <span class="star"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="sender-name wh-64">
+                        <span class=" section-icon flex-cntr">S</span>
+                    </div>
+                    <div class="my-content">
+                        <div class="sender">
+                            <span>Sender</span>
+                            <span class="date">Nov 20</span>
+                        </div>
+                        <div class="subject">
+                            <span>Subject</span>
+                        </div>
+                        <div class="msg">
+                            <span>Content</span>
+                            <span class="star"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="compose-box">
+                <div class="compose-mgs hide-false">
+                    <div class="mail-title" onclick="closeModal()">
+                        <div class="title-box">
+                            <span>Compose mail</span>
+                        </div>
+                        <div class="action-box">
+                            <span class="box-display minimize" data-name="minimize">
+                                <i class="fa fa-window-maximize" aria-hidden="true" action></i>
+                            </span>
+                            <span class="box-display close-mailbox" data-name="close-mailbox">
+                                <i class="fa fa-window-close" aria-hidden="true" action onclick="closeModal()"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="mail-header">
+                        <div class="destination-addresses">
+                            <div class="destination-to">
+                                <div class="id-type to-address">To:</div>
+                                <div class="email-id">
+                                    <div class="mail-idbox" style="display:inline-block;"></div>
+                                    <span class="addmailid" contenteditable="true" onblur="addmailid(this)"></span>
+                                </div>
+                            </div>
+                            <div class="destination-cc">
+                                <div class="id-type cc-address">Cc:</div>
+                                <div class="email-id"></div>
+                            </div>
+                            <div class="destination-bcc">
+                                <div class="id-type bcc-address">Bcc:</div>
+                                <div class="email-id"></div>
+                            </div>
+                            <div class="subject">
+                                <textarea name="" id="" cols="30" rows="1" placeholder="subject"
+                                    class="mail-subject"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mail-body">
+
+                    </div>
+                    <div class="mail-footer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
